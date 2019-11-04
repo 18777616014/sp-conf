@@ -13,11 +13,7 @@ eureka:
 zuul:
   retryable: true
 
-#  routes: #routes默认就是下面的规则
-#    item-service: /item-service/**
-#    user-service: /user-service/**
-#    order-service: /order-service/**
-    
+  
 ribbon:
   ConnectTimeout: 1000
   ReadTimeout: 1000
