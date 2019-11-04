@@ -5,7 +5,6 @@ spring:
 server:
   port: 8201
 
-#向eureka注册
 eureka:
   client:
     service-url:
